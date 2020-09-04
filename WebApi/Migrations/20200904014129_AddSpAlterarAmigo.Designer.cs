@@ -10,7 +10,7 @@ using WebApi.Data;
 namespace WebApi.Migrations
 {
     [DbContext(typeof(WebApiContext))]
-    [Migration("20200903195348_AddSpAlterarAmigo")]
+    [Migration("20200904014129_AddSpAlterarAmigo")]
     partial class AddSpAlterarAmigo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

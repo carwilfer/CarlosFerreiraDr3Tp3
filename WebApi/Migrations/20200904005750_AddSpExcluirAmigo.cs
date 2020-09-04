@@ -10,7 +10,7 @@ namespace WebApi.Migrations
                 CREATE PROCEDURE [dbo].[ExcluirAmigo]
 	                @id int
                 AS
-                    delete from amigo where id = @id
+	                delete from amigo where id = @id
                 RETURN 0
             ");
         }
@@ -20,7 +20,6 @@ namespace WebApi.Migrations
             migrationBuilder.Sql(@"
                 DROP PROCEDURE [dbo].[ExcluirAmigo]
             ");
-
         }
     }
 }

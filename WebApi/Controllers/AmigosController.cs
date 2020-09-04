@@ -105,7 +105,6 @@ namespace WebApi.Controllers
             //await _context.SaveChangesAsync();
             await _context.Database.ExecuteSqlInterpolatedAsync(
                 $"exec ExcluirAmigo{id}");
-
             return amigo;
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\CarlosFerreiraDr3Tp3\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\Tp3_WepApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\CarlosFerreiraDr3Tp3\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\Tp3_WepApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\CarlosFerreiraDr3Tp3\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\Tp3_WepApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\CarlosFerreiraDr3Tp3\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\Tp3_WepApi\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\CarlosFerreiraDr3Tp3\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\Desenvolvimento_com_Serviços_WCF_e_Microsoft_Azure\\Tp3_WepApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
