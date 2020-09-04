@@ -59,7 +59,7 @@ namespace WebApi.Controllers
             {
                 //await _context.SaveChangesAsync();
                 await _context.Database.ExecuteSqlInterpolatedAsync(
-                 $"exec AlterarAmigo {amigo.Nome}, {amigo.Sobrenome}, {amigo.Email}, {amigo.Telefone}, {amigo.DataNascimento}");
+                 $"exec AlterarAmigo {amigo.Id}, {amigo.Nome}, {amigo.Sobrenome}, {amigo.Email}, {amigo.Telefone}, {amigo.DataNascimento}");
 
             }
             catch (DbUpdateConcurrencyException)
@@ -104,7 +104,7 @@ namespace WebApi.Controllers
             //_context.Amigo.Remove(amigo);
             //await _context.SaveChangesAsync();
             await _context.Database.ExecuteSqlInterpolatedAsync(
-                $"exec ExcluirAmigo{id}");
+                $"exec ExcluirAmigo {id}");
             return amigo;
         }
 
